@@ -3,8 +3,7 @@ This dataset contains outliers, null values, and some technical anomalies. It is
 
 **Part 1** will be data science based perhaps no domain knowledge things, just basic way of data cleaning, no constraints check, an intuitive way of filling missing values, just the basic stuff, maybe outlier removal as well
 
-**Part 2** will be listening to constraints, domain knowledge of generating features, etc It will include all of part 1 + extra basically
-Something to note there's 3 geological anomalies in 3 features, perhaps some constraints are violated based on provided range in the about the dataset part or Something like that.
+**Part 2** will be listening to constraints, domain knowledge of generating features, etc. It will include all of part 1 + extra basically. Something to note, there's 3 geological anomalies in 3 features, perhaps some constraints are violated based on provided range in the about the dataset part or something like that.
 
 ## Plan
 ### Phase 1 - 19th June - 20th June
@@ -13,7 +12,8 @@ Something to note there's 3 geological anomalies in 3 features, perhaps some con
 dataset features"
 
 ### Phase 1 B
-**Damola** - Start Basic Data Cleaning check in notebook for train data (this checks will apply to Part 1 and Part 2)
+**Damola** - Start Basic Data Cleaning check in notebook for train data (this checks will apply to Part 1 and Part 2). You can reference this [notebook](https://github.com/pithun/2024-SPE-DSEATS-Datathon-Open-Solution/blob/master/2nd-Place/Submissions/Chigozie_Udoh_2024_DSEATS_Datathon_5272808.ipynb)
+
 Specifically, do;
 1. Column name shortening
 2. Data Type check (ensure correct data types are assigned)
