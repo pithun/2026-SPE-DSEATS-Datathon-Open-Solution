@@ -7,6 +7,7 @@ This dataset contains outliers, null values, and some technical anomalies. It is
 Something to note there's 3 geological anomalies in 3 features, perhaps some constraints are violated based on provided range in the about the dataset part or Something like that.
 
 ## Plan
+### Phase 1 - 19th June - 20th June
 ### Phase 1 A
 **KC & AJ** - In depth research and understanding of all features and empirical formulas related to this part of geology combined with dataset exploration (EDA) to understand what the organizers mean about "correct geological anomalies or inconsistencies in at least three (3)
 dataset features"
@@ -25,17 +26,17 @@ Specifically, do;
 ### Phase 1 C
 **Udoh**  - Slides preparation + Review/Support 1A and Review 1B
 
-### Phase 2
+### Phase 2 - 21st June
 Brainstorm Session to get clarity on what to do with dataset regarding part 2
 
-### Phase 3
+### Phase 3 - 21st June to 24th June
 **Everyone** - Feature Engineering and Modelling Brainstorming
 **KC** - Review Slides Template
 **Udoh and Damola** - FE and Modelling Execution
 **AJ** - FE and Modelling Support
 
-### Phase 4 
+### Phase 4  - 25th June to 26th June
 **Everyone** - Populating Slides based on part you worked on
 
-### Phase 5
+### Phase 5 - 27th June to 28th June
 Individual reviews to confirm that results make sense
