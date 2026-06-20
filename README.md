@@ -18,7 +18,7 @@ Specifically, do;
 1. Column name shortening
 2. Data Type check (ensure correct data types are assigned)
 3. Consistency check for text columns (ensure trap_type for example has the different trap types with same name. e.g we shouldn't have DOME and dome)
-4. Missing Data check (you have to suggest ways to fill outliers)
+4. Missing Data check (you have to suggest ways to fill missing values)
 5. Duplicate check
 6. Outlier Detection (Feel free to use a model like Isolation Forest for this later on)
 7. Any extra stuff is highly welcomed
@@ -30,10 +30,10 @@ Specifically, do;
 Brainstorm Session to get clarity on what to do with dataset regarding part 2
 
 ### Phase 3 - 21st June to 24th June
-**Everyone** - Feature Engineering and Modelling Brainstorming
-**KC** - Review Slides Template
-**Udoh and Damola** - FE and Modelling Execution
-**AJ** - FE and Modelling Support
+- **Everyone** - Feature Engineering and Modelling Brainstorming
+- **KC** - Review Slides Template
+- **Udoh and Damola** - FE and Modelling Execution
+- **AJ** - FE and Modelling Support
 
 ### Phase 4  - 25th June to 26th June
 **Everyone** - Populating Slides based on part you worked on
