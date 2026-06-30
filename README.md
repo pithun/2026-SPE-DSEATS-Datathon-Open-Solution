@@ -1,6 +1,131 @@
-## Research
-https://docs.google.com/document/d/18KgChC6qzngcY5tHbvzZDImq3opYi2hnKpBRUSOYS7s/edit?tab=t.0
+# SPE Datathon 2026 – Oil Presence Prediction using Machine Learning
 
+## Overview
+
+This project was developed for the **SPE Datathon 2026** to predict the presence of oil in unexplored locations using geological and geophysical data. The objective was to provide a non-destructive, data-driven alternative to costly exploratory drilling by leveraging machine learning techniques.
+
+Our solution combined domain knowledge, rigorous data preprocessing, feature engineering, and model optimization to build robust predictive models for both competition tasks.
+
+---
+
+## Project Workflow
+
+### 1. Domain Research
+Before modelling, we investigated geological relationships between reservoir properties to validate the dataset and identify inconsistencies. This helped guide feature engineering decisions and prevented unrealistic assumptions from affecting the models. 
+Our findings are documented [here](https://docs.google.com/document/d/18KgChC6qzngcY5tHbvzZDImq3opYi2hnKpBRUSOYS7s/edit?usp=sharing).
+
+### 2. Data Cleaning
+- Standardized categorical values and column names.
+- Removed duplicate and conflicting records.
+- Investigated outliers using Isolation Forest and retained valid geological observations.
+- Carefully handled missing values using statistically and geologically appropriate strategies.
+
+### 3. Exploratory Data Analysis
+EDA was used to understand:
+- Class imbalance in oil presence.
+- Relationships between seismic attributes and oil occurrence.
+- Distribution of reservoir properties.
+- Correlations between numerical variables.
+- Geological patterns across rock and trap types.
+
+The analysis confirmed seismic score, proximity to known oil fields, porosity, permeability, and geological formations as key predictive variables.
+
+### 4. Feature Engineering
+Several domain-informed features were created, including:
+- Encoded geological categories.
+- Rock-type-specific transformations.
+- Adjusted porosity and permeability relationships.
+- Scaled interaction features.
+- Missing-value prediction pipelines for reservoir properties.
+
+### 5. Model Development
+Multiple machine learning models were evaluated, including:
+- Logistic Regression
+- Random Forest
+- LightGBM
+- XGBoost
+
+Hyperparameter optimization was performed using:
+- **Optuna** (Part 1)
+- **Randomized Search CV** (Part 2)
+
+The evaluation primarily focused on **F1 Macro**, **Recall**, and **Precision** due to the imbalanced nature of the dataset.
+
+---
+
+## Results
+
+### Part 1
+**Best Model:** LightGBM
+
+- F1 Macro: **0.67**
+- Recall: **0.75**
+- Accuracy: **79%**
+
+### Part 2
+**Best Model:** Random Forest
+
+- F1 Macro: **0.77**
+- Precision: **0.80**
+- Recall: **0.54**
+- Accuracy: **84%**
+
+---
+
+## Key Takeaways
+
+- Domain knowledge significantly improved feature engineering and data validation.
+- Careful preprocessing and handling of geological relationships enhanced model performance.
+- Optimizing for **F1 Macro** and **Recall** produced models better suited for identifying potential oil-bearing locations than accuracy alone.
+- Ensemble tree-based models consistently outperformed linear models for this problem.
+
+---
+
+## Team
+
+**Team Wisdom**
+
+- Chigozie Udoh
+- Adejire Adegite
+- Kenechukwu Ezeonugo
+- Adedamola Adams
+
+---
+
+## Technologies
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- LightGBM
+- XGBoost
+- Optuna
+- Matplotlib
+- Seaborn
+
+---
+
+## Repository Structure
+
+```text
+├── data/
+├── notebooks/
+├── models/
+├── outputs/
+├── presentation/
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## Acknowledgement
+
+This project was developed as part of the **Society of Petroleum Engineers (SPE) Datathon 2026**, demonstrating the application of machine learning and domain knowledge to support data-driven exploration decisions in the energy industry.
+
+
+## Used during competition
 ## Notes
 This dataset contains outliers, null values, and some technical anomalies. It is expected that participating teams will apply oil and gas domain knowledge
 
