@@ -1,3 +1,6 @@
+## Research
+https://docs.google.com/document/d/18KgChC6qzngcY5tHbvzZDImq3opYi2hnKpBRUSOYS7s/edit?tab=t.0
+
 ## Notes
 This dataset contains outliers, null values, and some technical anomalies. It is expected that participating teams will apply oil and gas domain knowledge
 
